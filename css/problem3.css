@@ -10,7 +10,9 @@
 * {box-sizing: border-box;}
 
 .container {
-    grid-template-columns: repeat(3, 20px [col-start]);
+    display: inline-grid;
+
+    grid-template-columns: repeat(2, 30px [col-start]);
   }
 
 body {
