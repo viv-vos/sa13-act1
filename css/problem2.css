@@ -1,0 +1,69 @@
+
+  body {
+    background-color: rgb(217, 188, 255);
+  }
+  
+  h1 {
+    color: purple;
+    margin-left: 76px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 70px;
+  }
+.border1 {
+    margin-left: 340px;
+
+    border: 10px solid pink;
+    padding: 10px;
+    width: 550px;
+    length: 100px
+
+}
+
+  
+  .box {
+    max-width: 1200px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .menu {
+    font-family: "Lucida Console", "Courier New", monospace;
+
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+  
+  .menu-header {
+    color: purple;
+    margin-left: 500px;
+    padding-bottom: 1em;
+    border-bottom: 6px solid pink;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 50px;
+}
+  
+  .menu-group {
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 10px;
+  }
+  
+  
+  .menu-item-text {
+    font-family: "Lucida Console", "Courier New", monospace;
+    flex-grow: 2;
+    font-size: 25px;
+  }
+  
+  .menu-item {
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: flex;
+    justify-content: space-between;
+  }
+ .hours {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 400px;
+    font-family: "Lucida Console", "Courier New", monospace;
+ }

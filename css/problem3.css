@@ -1,0 +1,74 @@
+
+@media screen and (max-width: 400px) {
+    h1 {
+    width: 125px;
+    height: 125px;
+      font-size: 1.5em;
+    }
+  }
+
+* {box-sizing: border-box;}
+
+.container {
+    grid-template-columns: repeat(3, 20px [col-start]);
+  }
+
+body {
+    background-color: rgb(208, 239, 255);
+  }
+
+.header {
+    background-color: rgb(208, 167, 255);
+}
+.navbarword {
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+    .navbar {
+    color: rgb(236, 200, 255);
+    margin-left: 20px;
+    padding: 50px;
+    list-style: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+    }
+    /* Reusable utility classes */
+    .text-center {
+    text-align: center;
+    }
+    .hidden {
+    display: none;
+    }
+
+    .headers {
+        margin-left: 200px;
+        font-size: 40px;
+        font-family: American Typewriter, serif;
+        }
+
+    .descriptions {
+        margin-left: 15px;
+        font-weight: normal;
+        font-size: 20px;
+        font-family: American Typewriter, serif;
+
+    }
+
+    .descriptions1 {
+        margin-left: 370px;
+        font-weight: normal;
+        font-size: 20px;
+        font-family: American Typewriter, serif;
+
+    }
+
+    .form {
+        padding: 30px;
+        line-height: 2.0;
+        margin-left: 350px;
+        font-weight: normal;
+        font-size: 20px;
+        font-family: American Typewriter, serif;
+        display: flex;
+        style: 100px;
+    }
